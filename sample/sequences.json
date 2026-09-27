@@ -1,0 +1,15 @@
+{
+  "budget": 1,
+  "window": 4,
+  "seq_error_code": "E_BAD_SEQ",
+  "dup_error_code": "E_DUP_SEQ",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "base": 0, "bits": [0, 0, 0, 0], "accepted": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "seq", "seq": 1 },
+    { "id": 2, "kind": "seq", "seq": 3 },
+    { "id": 3, "kind": "seq", "seq": 2 },
+    { "id": 4, "kind": "seq", "seq": 7 },
+    { "id": 5, "kind": "seq", "seq": 6 }
+  ]
+}
